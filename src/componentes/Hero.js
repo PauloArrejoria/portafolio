@@ -37,7 +37,7 @@ function Hero() {
           </div>
         </div>
         <div class="col-md-5 tecnologias">
-          <p>Estas son las tecnologías que utilizo</p>
+          <p>Estas son las tecnologías que utilizo, cambio</p>
           <div class="row">
             <p className="col">HTML5</p>
             <p className="col">CSS3</p>
