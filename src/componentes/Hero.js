@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../estilos/Hero.css";
 import React from "react";
 import Contacto from "./Contacto";
+import Tecnologia from "./Tecnologia";
 
 function Hero() {
   return (
@@ -21,7 +22,7 @@ function Hero() {
               Argentina.
             </p>
           </div>
-          <div class="row container contacto">
+          <div class="d-flex flex-wrap align-items-center justify-content-center">
             <Contacto
               link="https://www.linkedin.com/in/paulo-arrejoria-1070b4245/"
               icono="bi bi-linkedin"
@@ -37,18 +38,18 @@ function Hero() {
           </div>
         </div>
         <div class="col-md-5 tecnologias">
-          <p>Estas son las tecnologías que utilizo, cambio</p>
-          <div class="row">
-            <p className="col">HTML5</p>
-            <p className="col">CSS3</p>
-            <p className="col">JavaScript</p>
-            <p className="col">PHP</p>
+          <p>Estas son las tecnologías que utilizo</p>
+          <div class="d-flex flex-wrap align-items-center justify-content-center">
+            <Tecnologia tecnologia="HTML5" />
+            <Tecnologia tecnologia="CSS3" />
+            <Tecnologia tecnologia="JavaScript" />
+            <Tecnologia tecnologia="PHP" />
           </div>
-          <div class="row">
-            <p className="col">SQL</p>
-            <p className="col">AJAX</p>
-            <p className="col">Bootstrap</p>
-            <p className="col">React</p>
+          <div class="d-flex flex-wrap align-items-center justify-content-center">
+            <Tecnologia tecnologia="SQL" />
+            <Tecnologia tecnologia="AJAX" />
+            <Tecnologia tecnologia="Bootstrap" />
+            <Tecnologia tecnologia="React" />
           </div>
         </div>
       </div>

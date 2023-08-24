@@ -9,7 +9,7 @@ import React from "react";
 function Contacto(props) {
   return (
     <a
-      className="col"
+      className="enlace"
       href={`${props.link}`}
       target="_blank"
       rel="noopener noreferrer"

@@ -2,11 +2,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../estilos/Tecnologia.css";
 import React from "react";
 
 function Tecnologia(props) {
   return (
-    <i className={`${props.icono} d-flex justify-content-center col-4`}></i>
+    <img
+      className="tecnologia"
+      src={require(`../imagenes/${props.tecnologia}.svg`)}
+      alt={props.tecnologia}
+    />
   );
 }
 
