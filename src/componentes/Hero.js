@@ -12,7 +12,9 @@ function Hero() {
     <section class="hero container-fluid">
       <div class="row">
         <div class="col-md-7 sobre-mi">
-          <div class="row">Hey! I'm Paulo...</div>
+          <div class="row">
+            <p>Hey! I'm Paulo...</p>
+          </div>
           <div class="row">
             <p>
               Soy un desarrollador web Full Stack y estudiante avanzado de

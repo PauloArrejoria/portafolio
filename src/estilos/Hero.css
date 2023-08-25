@@ -1,17 +1,9 @@
 .hero {
-  background-color: red;
   max-width: 768px;
-}
-
-.col-md-6 {
   background-color: red;
-}
-.about {
-  background-color: blue;
 }
 
 .container-fluid .contacto {
-  background-color: blue;
   padding: 5px 0;
   margin: 0 auto 15px;
 }
