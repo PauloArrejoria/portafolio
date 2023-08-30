@@ -6,13 +6,19 @@ import "../estilos/Proyecto.css";
 import React from "react";
 
 function Proyecto(props) {
-  //const itemList = props.list.map((item, index) => <li key={index}>{item}</li>);
-  //<ul>{itemList}</ul>
-
+  const tecnologias = props.tecnologias;
   return (
     <div className="proyecto containet-fluid">
       <div className="datos">
         <h3>{props.nombreProyecto}</h3>
+
+        <ul className="d-flex flex-wrap">
+          {tecnologias.map((tecnologia, index) => (
+            <li className="" key={index}>
+              {tecnologia}
+            </li>
+          ))}
+        </ul>
 
         <p>{props.descripcion}</p>
         <div className="d-flex flex-wrap align-items-center justify-content-center">

@@ -12,16 +12,10 @@ function Proyectos() {
       <p>Alguno de mis proyectos</p>
       <Proyecto
         nombreProyecto="Portafolio Personal"
-        //list=""
         descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
         linkWeb="#"
         linkGitHub="#"
-      />
-      <Proyecto
-        nombreProyecto="test2"
-        descripcion="test2"
-        linkWeb="#"
-        linkGitHub="#"
+        tecnologias={["React", "Bootstrap", "CSS"]}
       />
     </section>
   );
