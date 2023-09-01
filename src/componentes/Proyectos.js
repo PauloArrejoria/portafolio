@@ -17,6 +17,20 @@ function Proyectos() {
         linkGitHub="#"
         tecnologias={["React", "Bootstrap", "CSS"]}
       />
+      <Proyecto
+        nombreProyecto="Portafolio Personal"
+        descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
+        linkWeb="#"
+        linkGitHub="#"
+        tecnologias={["React", "Bootstrap", "CSS"]}
+      />
+      <Proyecto
+        nombreProyecto="Portafolio Personal"
+        descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
+        linkWeb="#"
+        linkGitHub="#"
+        tecnologias={["React", "Bootstrap", "CSS"]}
+      />
     </section>
   );
 }
