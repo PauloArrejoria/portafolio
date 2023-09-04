@@ -14,7 +14,6 @@ function Header() {
         </a>
         <div class="d-flex">
           <button class="btn btn-outline-success me-2">Boton Tema</button>
-          <button class="btn btn-outline-success">Boton Idioma</button>
         </div>
       </div>
     </nav>
