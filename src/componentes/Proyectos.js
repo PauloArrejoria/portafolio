@@ -9,21 +9,7 @@ import React from "react";
 function Proyectos() {
   return (
     <section className="proyectos container-fluid">
-      <p>Alguno de mis proyectos</p>
-      <Proyecto
-        nombreProyecto="Portafolio Personal"
-        descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
-        linkWeb="#"
-        linkGitHub="#"
-        tecnologias={["React", "Bootstrap", "CSS"]}
-      />
-      <Proyecto
-        nombreProyecto="Portafolio Personal"
-        descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
-        linkWeb="#"
-        linkGitHub="#"
-        tecnologias={["React", "Bootstrap", "CSS"]}
-      />
+      <h2 className="text-white d-flex">Algunos de mis proyectos</h2>
       <Proyecto
         nombreProyecto="Portafolio Personal"
         descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"

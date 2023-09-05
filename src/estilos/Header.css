@@ -1,3 +1,25 @@
 nav .container-fluid {
   max-width: 768px;
+  /*margin-bottom: 30px;*/
+}
+
+.enlace-nav {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-tema {
+  background-color: #3e3e42;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  transition: filter 0.3s;
+}
+
+.btn-tema:hover {
+  filter: brightness(1.2);
 }

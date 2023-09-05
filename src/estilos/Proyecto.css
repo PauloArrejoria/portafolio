@@ -1,7 +1,11 @@
 .proyecto {
-  background-color: rgb(0, 200, 0);
+  background-color: #5b5b5b;
   transition: transform 0.3s ease;
+  border-radius: 10px;
+  padding-top: 2px;
   padding-bottom: 2px;
+  font-weight: bold;
+  color: white;
 }
 
 .proyecto:hover {
@@ -13,7 +17,7 @@ h3 {
 }
 
 .datos {
-  margin: 10px;
+  margin: 5px 10px 10px 10px;
 }
 
 ul {
@@ -23,4 +27,19 @@ ul {
 li {
   list-style: none;
   margin-right: 15px;
+}
+
+.descripcion {
+  font-weight: normal;
+  margin-top: -10px;
+}
+
+.proyecto a {
+  color: white;
+  transition: all 0.2s ease-in;
+}
+
+.proyecto a:hover {
+  /* test */
+  color: red;
 }

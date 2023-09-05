@@ -1,11 +1,15 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #252526;
   min-height: 100vh;
-  border: 0.5px solid #282c34;
+  border: 0.5px solid #252526;
   position: relative;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  color: white;
 }

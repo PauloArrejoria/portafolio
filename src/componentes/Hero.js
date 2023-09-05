@@ -13,7 +13,7 @@ function Hero() {
       <div class="row">
         <div class="col-md-7 sobre-mi">
           <div class="row">
-            <p>Hey! I'm Paulo...</p>
+            <h2 className="text-white">Sobre mí...</h2>
           </div>
           <div class="row">
             <p>
@@ -40,14 +40,14 @@ function Hero() {
           </div>
         </div>
         <div class="col-md-5 tecnologias">
-          <p>Estas son las tecnologías que utilizo</p>
-          <div class="d-flex flex-wrap align-items-center justify-content-center">
+          <h2 className="text-white">Tecnologías</h2>
+          <div class="d-flex flex-wrap justify-content-center">
             <Tecnologia tecnologia="HTML5" />
             <Tecnologia tecnologia="CSS3" />
             <Tecnologia tecnologia="JavaScript" />
             <Tecnologia tecnologia="PHP" />
           </div>
-          <div class="d-flex flex-wrap align-items-center justify-content-center">
+          <div class="d-flex flex-wrap justify-content-center">
             <Tecnologia tecnologia="SQL" />
             <Tecnologia tecnologia="AJAX" />
             <Tecnologia tecnologia="Bootstrap" />

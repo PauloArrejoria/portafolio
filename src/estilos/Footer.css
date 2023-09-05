@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  background: yellow;
+  font-weight: bold;
   position: absolute;
   bottom: 0;
 }

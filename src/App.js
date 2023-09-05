@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <h1 className="text-white">Test</h1>
       <Hero />
       <Proyectos />
       <Footer />

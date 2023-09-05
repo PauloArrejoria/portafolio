@@ -1,6 +1,17 @@
 .hero {
   max-width: 768px;
-  background-color: red;
+  margin-top: 30px;
+}
+
+.hero a {
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+
+.hero a:hover {
+  /* Test */
+  color: red;
 }
 
 .container-fluid .contacto {

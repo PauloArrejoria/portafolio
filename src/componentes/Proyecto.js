@@ -20,7 +20,7 @@ function Proyecto(props) {
           ))}
         </ul>
 
-        <p>{props.descripcion}</p>
+        <p className="descripcion">{props.descripcion}</p>
         <div className="d-flex flex-wrap align-items-center justify-content-center">
           <a
             className="px-2"
