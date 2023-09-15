@@ -34,11 +34,11 @@ li {
   margin-top: -10px;
 }
 
-.proyecto a {
+.link-proyecto {
   transition: all 0.2s ease-in;
 }
 
-.proyecto a:hover {
+.link-proyecto:hover {
   /* test */
   color: red;
 }

@@ -13,8 +13,8 @@ function Proyectos() {
       <Proyecto
         nombreProyecto="Portafolio Personal"
         descripcion="Un poco de informacion acerca de mi, mis proyectos personales y tecnologias que utilizo"
-        linkWeb="#"
-        linkGitHub="#"
+        linkWeb="https://portafolio-ten-lake.vercel.app/"
+        linkGitHub="https://github.com/PauloArrejoria/portafolio"
         tecnologias={["React", "Bootstrap", "CSS"]}
       />
     </section>
