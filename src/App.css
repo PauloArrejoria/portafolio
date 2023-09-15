@@ -1,15 +1,62 @@
+:root {
+  --body_bakground: white;
+  --body_color: black;
+  --body_link: black;
+}
+
+[data-theme="dark"] {
+  --body_bakground: #252526;
+  --body_color: white;
+  --body_link: white;
+}
+
+[data-theme="light"] {
+  --body_bakground: white;
+  --body_color: black;
+  --body_link: black;
+}
+
 .App {
   text-align: center;
-  background-color: #252526;
   min-height: 100vh;
-  border: 0.5px solid #252526;
   position: relative;
+  background-color: var(--body_bakground);
+  border: 0.5px solid var(--body_bakground);
+  color: var(--body_color);
 }
 
 a {
   text-decoration: none;
+  color: var(--body_link);
 }
 
-p {
+a i {
+  color: var(--body_link);
+}
+
+/*
+.dark {
+  background-color: #252526;
+  border: 0.5px solid #252526;
   color: white;
 }
+
+.dark a {
+  color: white;
+}
+
+.light {
+  background-color: white;
+  border: 0.5px solid white;
+  color: #000;
+}
+
+.light a,
+.light h1,
+.light h2,
+.light h3,
+.light a i,
+.light footer {
+  color: #000;
+}
+*/

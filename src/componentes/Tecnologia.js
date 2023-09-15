@@ -8,7 +8,7 @@ import React from "react";
 function Tecnologia(props) {
   return (
     <img
-      className="tecnologia"
+      className="tecnologia col-3"
       src={require(`../imagenes/${props.tecnologia}.svg`)}
       alt={props.tecnologia}
     />

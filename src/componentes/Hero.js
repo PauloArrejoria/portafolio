@@ -13,13 +13,13 @@ function Hero() {
       <div class="row">
         <div class="col-md-7 sobre-mi">
           <div class="row">
-            <h2 className="text-white">Sobre mí...</h2>
+            <h2>Sobre mí</h2>
           </div>
           <div class="row">
             <p>
-              Soy un desarrollador web Full Stack y estudiante avanzado de
+              Soy desarrollador web Full Stack y estudiante avanzado de
               Ingeniería en Sistemas de Información en{" "}
-              <a href="https://www.frcu.utn.edu.ar/">UTN FRCU</a>, actualmente
+              <a href="https://www.frcu.utn.edu.ar/">UTN FRCU</a>, me encuentro
               cursando el 4to año de la carrera. Actualmente me encuentro en
               Argentina.
             </p>
@@ -40,19 +40,15 @@ function Hero() {
           </div>
         </div>
         <div class="col-md-5 tecnologias">
-          <h2 className="text-white">Tecnologías</h2>
-          <div class="d-flex flex-wrap justify-content-center">
-            <Tecnologia tecnologia="HTML5" />
-            <Tecnologia tecnologia="CSS3" />
-            <Tecnologia tecnologia="JavaScript" />
-            <Tecnologia tecnologia="PHP" />
-          </div>
-          <div class="d-flex flex-wrap justify-content-center">
-            <Tecnologia tecnologia="SQL" />
-            <Tecnologia tecnologia="AJAX" />
-            <Tecnologia tecnologia="Bootstrap" />
-            <Tecnologia tecnologia="React" />
-          </div>
+          <h2>Tecnologías</h2>
+          <Tecnologia tecnologia="HTML5" />
+          <Tecnologia tecnologia="CSS3" />
+          <Tecnologia tecnologia="JavaScript" />
+          <Tecnologia tecnologia="PHP" />
+          <Tecnologia tecnologia="SQL" />
+          <Tecnologia tecnologia="AJAX" />
+          <Tecnologia tecnologia="Bootstrap" />
+          <Tecnologia tecnologia="React" />
         </div>
       </div>
     </section>

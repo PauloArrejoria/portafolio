@@ -10,7 +10,7 @@ function Proyecto(props) {
   return (
     <div className="proyecto containet-fluid">
       <div className="datos">
-        <h3>{props.nombreProyecto}</h3>
+        <h3 className="text-white">{props.nombreProyecto}</h3>
 
         <ul className="d-flex flex-wrap">
           {tecnologias.map((tecnologia, index) => (
@@ -23,7 +23,7 @@ function Proyecto(props) {
         <p className="descripcion">{props.descripcion}</p>
         <div className="d-flex flex-wrap align-items-center justify-content-center">
           <a
-            className="px-2"
+            className="px-2 text-white"
             href={`${props.linkWeb}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function Proyecto(props) {
             Web
           </a>
           <a
-            className="px-2"
+            className="px-2 text-white"
             href={`${props.linkGitHub}`}
             target="_blank"
             rel="noopener noreferrer"

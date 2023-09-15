@@ -7,9 +7,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="text-white text-center py-3">
-      2023 - Paulo Arrejoria 🤘🏽
-    </footer>
+    <footer className="text-center py-3">2023 - Paulo Arrejoria 🤘🏽</footer>
   );
 }
 
