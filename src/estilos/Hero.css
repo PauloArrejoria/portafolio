@@ -8,9 +8,11 @@
   transition: all 0.2s ease-in;
 }
 
-.hero a:hover {
-  /* Test */
-  color: red;
+@media (min-width: 768px) {
+  .hero a:hover {
+    /* Test */
+    color: red;
+  }
 }
 
 .container-fluid .contacto {

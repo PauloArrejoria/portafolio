@@ -1,3 +1,18 @@
+:root {
+  --btn_background: white;
+  --i_color: white;
+}
+
+[data-theme="dark"] {
+  --btn_background: #3e3e42;
+  --i_color: white;
+}
+
+[data-theme="light"] {
+  --btn_background: rgb(202, 195, 195);
+  --i_color: #3e3e42;
+}
+
 nav .container-fluid {
   max-width: 768px;
   /*margin-bottom: 30px;*/
@@ -9,10 +24,10 @@ nav .container-fluid {
 }
 
 .btn-tema {
-  background-color: #3e3e42;
+  background-color: var(--btn_background);
   width: 40px;
   height: 40px;
-  color: white;
+  color: var(--i_color);
   font-weight: bold;
   border: none;
   border-radius: 50%;

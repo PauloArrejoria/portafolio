@@ -23,7 +23,7 @@ function Proyecto(props) {
         <p className="descripcion">{props.descripcion}</p>
         <div className="d-flex flex-wrap align-items-center justify-content-center">
           <a
-            className="px-2 link-proyecto"
+            className="px-2 link-proyecto text-white"
             href={`${props.linkWeb}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function Proyecto(props) {
             Web
           </a>
           <a
-            className="px-2 link-proyecto"
+            className="px-2 link-proyecto text-white"
             href={`${props.linkGitHub}`}
             target="_blank"
             rel="noopener noreferrer"

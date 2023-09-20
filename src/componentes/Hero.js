@@ -19,9 +19,15 @@ function Hero() {
             <p>
               Soy desarrollador web Full Stack y estudiante avanzado de
               Ingeniería en Sistemas de Información en{" "}
-              <a href="https://www.frcu.utn.edu.ar/">UTN FRCU</a>, me encuentro
-              cursando el 4to año de la carrera. Actualmente me encuentro en
-              Argentina.
+              <a
+                href="https://www.frcu.utn.edu.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                UTN FRCU
+              </a>
+              , me encuentro cursando el 4to año de la carrera. Actualmente me
+              encuentro en Argentina.
             </p>
           </div>
           <div class="d-flex flex-wrap align-items-center justify-content-center">
