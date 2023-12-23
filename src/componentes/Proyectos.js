@@ -17,6 +17,13 @@ function Proyectos() {
         linkGitHub="https://github.com/PauloArrejoria/portafolio"
         tecnologias={["React", "Bootstrap", "CSS"]}
       />
+      <Proyecto
+        nombreProyecto="Weather App"
+        descripcion="Una aplicacion que consume una API para comprobar el clima en las distintas ciudades del mundo"
+        linkWeb="https://weather-app-rose-psi-40.vercel.app/"
+        linkGitHub="https://github.com/PauloArrejoria/weather-app"
+        tecnologias={["HTML", "CSS"]}
+      />
     </section>
   );
 }
